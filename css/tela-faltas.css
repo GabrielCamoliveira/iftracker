@@ -1,0 +1,145 @@
+/* Geral - Listas de Frequência */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: black;
+    border: none;
+
+}
+
+h1, h4 {
+    font-weight: normal;
+    }
+h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    background-color: #b8b8b8;
+}
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a, label {
+    text-decoration: none;
+}
+
+.botao-freq {
+    font-size: 100%;
+}
+
+a:hover {
+color: #4176c6;
+}
+
+/* Menu Lateral */
+
+#barra-lateral {
+
+    width: 25%;
+    height: 100%;
+    background-color: #d1d1d1;
+    padding: 20px 0px;
+    text-align: center;
+    position: fixed;
+
+}
+
+#versao {
+    display: contents;
+    font-weight: bold;
+    text-align: right;
+    font-size: small;
+}
+
+#botao-inativo {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #b8b8b8;
+    margin-top: 40%;
+    pointer-events: none;
+}
+
+#botao-tela {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: #fff;
+    margin-top: 40%;
+}
+
+#botao-tela:hover {
+    background-color: #cadfff;
+    transition: .5s;
+}
+
+/* Tela principal */
+
+#tela-principal {
+    width: 75%;
+    margin-left: 25%;
+}
+#conteudo-tela {
+    /*margin-left: 20px;
+    margin-right: 20px;*/
+    padding: 20px 20px;
+}
+
+/*Lista de Faltas*/
+
+#lista-faltas {
+    columns: 1;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+#caixa-faltas {
+    /*height: 25px;*/
+    columns: 3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li {
+    padding: 5px;
+    background-color: #d1d1d1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label{
+font-weight: bold;
+}
+
+input {
+    background-color: #d1d1d1;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

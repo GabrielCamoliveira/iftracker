@@ -1,0 +1,8 @@
+{
+  "name":"wdev/usuarios",
+  "autoload":{
+    "psr-4":{
+      "IFTracker\\":"IFTracker/"
+    }
+  }
+}

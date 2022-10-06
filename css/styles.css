@@ -1,0 +1,133 @@
+/* Geral - Telas de Login e cadastro */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: black;
+    border: none;
+
+}
+
+h1, h4{
+    font-weight: normal;
+    }
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+a:hover {
+color: #4176c6;
+}
+
+/* Containers de login e registro */
+
+#login-container {
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 20vh;
+    text-align: center;
+
+}
+
+#register-container {
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    text-align: center;
+
+}
+
+#recup-container {
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 30vh;
+    text-align: center;
+
+}
+
+/* Formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label{
+font-weight: bold;
+}
+
+input {
+    background-color: #d1d1d1;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#esqueci-senha,#tem-conta {
+    display: block;
+    margin-bottom: 10px;
+    color: #4176c6;
+}
+#esqueci-senha:hover, #tem-conta:hover{
+    color: blue;
+}
+
+input[type="submit"] {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #2f9e41;
+    cursor: pointer;
+
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #51c664;
+    transition: .5s;
+}
+
+/* Login - Registrar */
+
+#registrar {
+
+    display: block;
+    margin-bottom: 10px;
+    color: #4176c6;
+}
+#registrar:hover {
+    color: blue;
+}

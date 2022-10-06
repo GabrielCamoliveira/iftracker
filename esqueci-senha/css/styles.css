@@ -1,0 +1,102 @@
+/* Geral - Tela de recuperação de senha */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: black;
+    border: none;
+
+}
+
+h1, h4{
+    font-weight: normal;
+    }
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+color: #4176c6;
+}
+
+/* Container */
+
+#recup-container {
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 30vh;
+    text-align: center;
+
+}
+
+/* Formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+
+label{
+font-weight: bold;
+}
+
+input {
+    background-color: #d1d1d1;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFF;
+    background-color: #2f9e41;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover {
+    background-color: #51c664;
+    transition: .5s;
+}
+
+#reenviar {
+    background-color: #cd191e;
+}
+
+#reenviar:hover {
+    background-color: #ee373d;
+    transition: .5s;
+}
+
+#voltar {
+    display: block;
+    margin-bottom: 10px;
+    color: #4176c6;
+}
+#voltar:hover {
+    color: blue;
+}

@@ -1,0 +1,123 @@
+/* Geral - Tabela da aula */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    color: black;
+    border: none;
+
+}
+
+body {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.header {
+    padding: 10px 10px;
+    position: sticky;
+}
+#tela-header::content {
+    height: 96px;
+    margin-left: 20px;
+    position: sticky;
+}
+
+#conteudo-tela {
+    width: 50%;
+}
+#descricao {
+    width: 50%;
+    padding-right: 50%;
+}
+h1, h4{
+    font-weight: normal;
+    }
+
+textarea:focus, input:focus {
+outline: none;
+}
+
+label {
+    margin-left: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 30px
+}
+.dados-header{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+table, th, td {
+    padding: 2px 2px;
+    border: 3px solid white;
+    border-collapse: collapse;
+  }
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+  }
+  th {
+    background-color: #b8b8b8;
+  }
+  td {
+    background-color: #d1d1d1;
+    text-align: center;
+  }
+  th {
+      width: 400px;
+  }
+
+  #descricao {
+      text-align: left;
+      margin-bottom: 15px;
+  }
+  #texto-descricao {
+      padding: 10px 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      background-color: #d1d1d1;
+      border: #d1d1d1;
+      border-width: 20px;
+  }
+  button { 
+      margin: 5px;
+      border: 10px
+  }
+
+button {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+#editar {
+    background-color: #2f9e41;
+}
+#editar:hover {
+    background-color: #51c664;
+    transition: .5s;
+}
+#deletar {
+    background-color: #cd191e;
+    transition: .5s;
+}
+#deletar:hover {
+    background-color: #ee373d;
+    transition: .5s;
+}
